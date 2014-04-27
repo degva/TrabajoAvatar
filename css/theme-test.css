@@ -1,0 +1,30 @@
+body {
+	font-family: Sans, Verdana;
+	position: absolute;
+}
+
+#moveHere {
+	height: 400px;
+	width: 900px;
+	position: relative;
+	left: 50px;
+	top: 50px;
+	background-color: #ddd;
+}
+
+#smallBox {
+	position: relative;
+	top: 0px;
+	left: 0px;
+	height: 30px;
+	width: 30px;
+	background-color: #555;
+}
+
+	#smallBox > p {
+		color: white;
+		font-size: 0.6em;
+		margin-top: 0;
+		padding-top: 8px;
+		text-align: center;
+	}
