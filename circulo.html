@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>
+    <script defer="defer">
+      var stage = new Kinetic.Stage({
+        container: 'container',
+        width: 1000,
+        height: 700
+      });
+
+      var layer = new Kinetic.Layer();
+
+      var circle = new Kinetic.Circle({
+        x: stage.getWidth() / 2,
+        y: 350,
+        radius: 30,
+        fill: 'red',
+        stroke: 'black',
+				strokeWidth: 4,
+				offset: {x:-200,y:0}
+			});
+
+      // add the shape to the layer
+      layer.add(circle);
+
+      // add the layer to the stage
+			stage.add(layer);
+
+			var angularSpeed = 360 / 1;
+			var anim = new Kinetic.Animation(function(frame) {
+				var angleDiff = frame.timeDiff * angularSpeed / 1000;
+				circle.rotate(angleDiff);
+      }, layer);
+
+      anim.start();
+		</script>
+
+  </body>
+</html>
