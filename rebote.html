@@ -48,6 +48,23 @@
 
          // update stuff
        }, layer);
+       var layer = new Kinetic.Layer();
+       var rect = new Kinetic.Rect({
+        x: 200,
+        y: 600,
+        width: 800,
+        height: 50,
+        fill: 'green',
+        stroke: 'black',
+        strokeWidth: 4
+       });
+
+      // add the shape to the layer
+     layer.add(rect);
+
+     // add the kayer to the stage 
+     stage.add(layer)
+
 
        anim.start();
 
