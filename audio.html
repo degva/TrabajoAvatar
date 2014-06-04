@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Uno dos tres</title>
+	</head>
+	<body>
+		<p>lksdjlfkad</p>
+		<button id='sound'>CLICK</button>
+	</body>
+	<script>
+
+		document.getElementById('sound').addEventListener("click", function() {
+			console.log('Descargando Audio!!');
+			var ping = new Audio("Voice00001.ogg");
+			ping.play();
+		});
+	</script>
+</html>
