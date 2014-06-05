@@ -1,0 +1,24 @@
+{
+  "1" : {
+    "audio" : "url1",
+    "texto" : "Hola que tal este e un texto para el evento uno",
+    "moves" : "A:hablar,B:escuchar"
+  },  
+  "2" : { 
+    "audio" : "url2",
+    "texto" : "Hola que tal este e un texto para el evento dos",
+    "moves" : "A:hablar,B:escuchar"
+  },  
+  "3" : { 
+    "audio" : "url3",
+    "texto" : "Hola que tal este e un texto para el evento tres",
+    "moves" : "A:hablar,B:escuchar"
+  },  
+  "f" : { 
+    "audio" : "url-preg",
+    "pregu" : "Y que haces?",
+    "r1" : "Aqui, nada",
+    "r2" : "Resolviendo este problema",
+    "r3" : "Nada, otra vez"
+  }
+}
