@@ -2,17 +2,26 @@
   "1" : {
     "audio" : "url1",
     "texto" : "Hola que tal este e un texto para el evento uno",
-    "moves" : "A:hablar,B:escuchar"
+		"moves" : {
+			"A" : "hablar",
+			"B" : "escuchar"
+		}
   },  
   "2" : { 
     "audio" : "url2",
     "texto" : "Hola que tal este e un texto para el evento dos",
-    "moves" : "A:hablar,B:escuchar"
+		"moves" : {
+			"A" : "ir-derecha",
+			"B" : "escuchar"
+		}
   },  
   "3" : { 
     "audio" : "url3",
     "texto" : "Hola que tal este e un texto para el evento tres",
-    "moves" : "A:hablar,B:escuchar"
+		"moves" : {
+			"A" : "NULL",
+			"B" : "ir-izquierda"
+		}
   },  
   "f" : { 
     "audio" : "url-preg",

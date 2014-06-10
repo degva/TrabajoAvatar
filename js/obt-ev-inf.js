@@ -52,6 +52,8 @@ $(document).ready(function() {
 			if (eact != -1) {
 				if (eact <= eventos[eventos.length - 2 ]) { // Si estamos antes del 'f'
 					var cont = '<p>'+masterJson[eact]['texto']+'</p>';
+					cont = cont + '<br><p><b>El obj A hara:</b>' + masterJson[eact]['moves']['A'] + '</p>';
+					cont = cont + '<br><p><b>El obj B hara:</b>' + masterJson[eact]['moves']['B'] + '</p>';
 					$('#ev-cont').html(cont);
 					eact += 1;
 				} else {
