@@ -1,24 +1,33 @@
 {
   "1" : {
     "audio" : "url1",
-    "texto" : "Hola que tal este e un texto para el evento uno",
-    "moves" : "A:hablar,B:escuchar"
+    "texto" : "Una mañana cualquiera los padres Pedro y Giannina se levantaron como cualquier mañana normal y se dirigieron a saludar a sus hijos. ",
+    "moves" : {
+      "A" : "ir-derecha",
+      "B" : "ir-derecha"
+    }
   },  
   "2" : { 
     "audio" : "url2",
-    "texto" : "Hola que tal este e un texto para el evento dos",
-    "moves" : "A:hablar,B:escuchar"
+    "texto" : "Al entrar en el cuarto no encontraron a sus hijos preocupados salieron a preguntar por ellos y sus amigos les dijeron que habían salido fuera de la granja a jugar",
+    "moves" : {
+      "A" : "escuchar",
+      "B" : "escuchar"
+    }
   },  
   "3" : { 
     "audio" : "url3",
-    "texto" : "Hola que tal este e un texto para el evento tres",
-    "moves" : "A:hablar,B:escuchar"
+    "texto" : "inmediatamente Pedro y Giannina fueron a la puerta de la granja y solo encontraron en el piso el sombrero de Charo. Afuera de la granja encontraron una piel de serpiente gigante.",
+    "moves" : {
+      "A" : "obs",
+      "B" : "obs"
+    }
   },  
   "f" : { 
     "audio" : "url-preg",
-    "pregu" : "Y que haces?",
-    "r1" : "Aqui, nada",
-    "r2" : "Resolviendo este problema",
-    "r3" : "Nada, otra vez"
+    "pregu" : "¿Qué crees que pasó",
+    "r1" : "Los hermanos cuy fueron robados por una anaconda",
+    "r2" : "Los hermanos cuy fueron robados por un blanco oso polar",
+    "r3" : "los hermanos cuy fueron robados por un saltarín canguro"
   }
 }
