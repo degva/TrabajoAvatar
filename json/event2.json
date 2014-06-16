@@ -3,8 +3,8 @@
     "audio" : "url4",
     "texto" : "El papá cuy acompañado del gallito de las rocas se encontraron con un obstáculo; un pequeño lago con algunos cocodrilos.A la entrada estaba un pelícano.",
     "moves" : {
-      "A" : "ir-derecha",
-      "B" : "ir-derecha"
+      "A" : "ir-izquierda",
+      "B" : "ir-izquierda"
     }
   },  
 

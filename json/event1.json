@@ -3,8 +3,8 @@
     "audio" : "url1",
     "texto" : "Una mañana cualquiera los padres Pedro y Giannina se levantaron como cualquier mañana normal y se dirigieron a saludar a sus hijos. ",
     "moves" : {
-      "A" : "ir-derecha",
-      "B" : "ir-derecha"
+      "A" : "ir-izquierda",
+      "B" : "ir-izquierda"
     }
   },  
   "2" : { 
@@ -25,7 +25,7 @@
   },  
   "f" : { 
     "audio" : "url-preg",
-    "pregu" : "¿Qué crees que pasó",
+    "pregu" : "¿Qué crees que pasó?",
     "r1" : "Los hermanos cuy fueron robados por una anaconda",
     "r2" : "Los hermanos cuy fueron robados por un blanco oso polar",
     "r3" : "los hermanos cuy fueron robados por un saltarín canguro"
