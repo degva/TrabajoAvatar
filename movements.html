@@ -174,7 +174,9 @@
 				anim2.start();
 
 				function modVals() { 					// Modificaremos y jalaremos el siguiente evento cada 10s
-					var data = sgteEv();
+					if (!repetir) {
+						var data = sgteEv();
+					}
 					if (data[0]	== 'e') {
 						texto = data[1];
 						// Para tipoA
