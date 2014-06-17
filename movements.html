@@ -29,6 +29,7 @@
 					width: 1000,
 					height: 600
 				});
+
 				var layer = new Kinetic.Layer();
 				var layer2 = new Kinetic.Layer();
 
@@ -176,6 +177,7 @@
 					var data = sgteEv();
 					if (data[0]	== 'e') {
 						texto = data[1];
+						// Para tipoA
 						if (data[2]	== 'escuchar' || data[2] == 'obs' || data[2] == 'hablar' ) {
 							velA = 0;
 						} else if (data[2] == 'ir-derecha') {
@@ -183,6 +185,7 @@
 						} else if (data[2] == 'ir-izquierda') {
 							velA = 1;
 						}
+						// Para tipoB
 						if (data[3]	== 'escuchar' || data[3] == 'obs' || data[3] == 'hablar' ) {
 							velB = 0;
 						} else if (data[3] == 'ir-derecha') {
