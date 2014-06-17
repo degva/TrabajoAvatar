@@ -1,0 +1,55 @@
+"12" : { 
+        "audio" : "url2",
+        "texto" : "Al amanecer el papa cuy y el gallito de las rocas continuaron con su viaje. Cansados por la caminata decidieron buscar un poco de agua y fruta",
+        "moves" : {
+          "A" : "ir-derecha",
+          "B" : "ir-derecha"
+    }
+  },
+
+
+    "13" : {
+    "audio" : "url13",
+    "texto" : "En eso se encontraron con Sach’a un juguetón mono choro que es un animal muy ágil recolectando frutas.",
+    "moves" : {
+      "A" : "obs",
+      "B" : "obs"
+    }
+  },  
+    "14" : { 
+      "audio" : "url14",
+      "texto" : "Sach’a les advirtió que no siguieran su camino porque a la entrada de la selva baja se hablaba de Wayra un capibara muy ágil nadando y corriendo (semiacuático) que era muy malo con los demás lugareños y que podría hacerles daño. ",
+      "moves" : {
+          "A" : "escuchar",
+           "B" : "hablar"
+    }
+  },  
+
+
+      "15" : { 
+      "audio" : "url15",
+      "texto" : "El padre cuy siguió su camino junto a su amigo gallito porque amaba mucho a sus hijos. Al llegar a la entrada se divisó al capibara.",
+      "moves" : {
+          "A" : "ir-derecha",
+           "B" : "obs"
+    }
+  },  
+
+
+       "16" : { 
+      "audio" : "url16",
+      "texto" : "El capibara les dice: que hacen por acá, ustedes no pasarán a mi territorio a menos que me respondan la siguiente pregunta.",
+      "moves" : {
+          "A" : "escuchar",
+           "B" : "hablar"
+    }
+  },  
+     
+  "f" : { 
+    "audio" : "url-preg",''
+    "pregu" : "¿Cómo me llamo? y ¿Qúe cosas no puedo hacer?",
+    "r1" : "Se llama Frank y no puede correr por la tierra.",
+    "r2" : "Se llama Andrés  y no puede nadar en las lagunas.",
+    "r3" : "Se llama Wayra y no puede trepar árboles."
+  }
+}

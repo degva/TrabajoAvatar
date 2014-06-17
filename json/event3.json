@@ -1,0 +1,35 @@
+  "6" : { 
+        "audio" : "url6",
+        "texto" : "El pelicano los acompaña mientras les cuenta que tiene un amigo cóndor macho, que posee cresta, ojos marrones y grandes alas, a diferencia de la hembra y que si necesitan ayuda pueden llamar al cóndor macho, pues los demás animales reaccionaran distinto.",
+        "moves" : {
+          "A" : "ir-derecha",
+          "B" : "ir-derecha"
+    }
+  },
+
+
+    "7" : {
+    "audio" : "url7",
+    "texto" : "El papa cuy junto con el gallito de las rocas continúa con la aventura y llegan a la sierra. El frio aumenta y los amigos no pueden continuar caminando porque no sienten  sus patas.",
+    "moves" : {
+      "A" : "ir-derecha",
+      "B" : "ir-derecha"
+    }
+  },  
+    "8" : { 
+      "audio" : "url8",
+      "texto" : "Entonces divisan tres aves:",
+      "moves" : {
+          "A" : "obs",
+           "B" : "obs"
+    }
+  },  
+     
+  "f" : { 
+    "audio" : "url-preg",
+    "pregu" : "¿Qué animal nos dijo el pelicano que podría ayudarnos con el frio?",
+    "r1" : "Cóndor sin cresta ",
+    "r2" : "Cóndor con cresta",
+    "r3" : "Halcón"
+  }
+}
