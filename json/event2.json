@@ -22,10 +22,21 @@
     "r1" : {
      "T":  "Lula",
       "tipo": "c"
-      "go": event3.json
+      "go": "event3.json"
       },
-    "r2" : "Charo",
-    "r3" : "Renzo"
+
+    "r2" : {
+
+     "T":  "Charo",
+      "tipo": "c"
+      "go": "event3.json"
+      },
+    "r3" : {
+    
+   "T":  "Renzo",
+   "tipo": "i"
+
+    },
   }
 }
 
