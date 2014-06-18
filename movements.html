@@ -59,7 +59,18 @@
 				var velA = 0;
 				var velB = 0;
 				var texto = "";
+                var rderepeat= new Kinetic.Text({
+                    x: 850,
+                    y: 550
+                    text: "R"
+                    fontSize: 35,
+					width: 20,
+					padding: 20,
+					fontFamily: 'Calibri',
+					fill: 'green',
+					align: 'center'
 
+                })
 				var textoSimple = new Kinetic.Text({
 					x: 200,
 					y: 500,
@@ -72,6 +83,7 @@
 					align: 'center'
 				});
 				layer.add(textoSimple);
+				layer.add(rderepeat);
 		
 				var pregunta = new Kinetic.Text({
 					x: 200,
@@ -174,9 +186,9 @@
 				anim2.start();
 
 				function modVals() { 					// Modificaremos y jalaremos el siguiente evento cada 10s
-					//if (!repetir) {
+					if (!repetir) {
 						var data = sgteEv();
-					//}
+					}
 					if (data[0]	== 'e') {
 						texto = data[1];
 						// Para tipoA
@@ -209,6 +221,11 @@
 				}
 				
 				modVals();
+
+				rderepeat.on('click', function(){
+					repetir = true
+
+				});
 
 				r1.on('click', function() {
 					alert('Hizo click en la primera!');
