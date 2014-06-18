@@ -145,13 +145,46 @@
 					width: 600,
 					cornerRadius: 10,
 					visible: false
+
 				});
+
+					var menubox= new Kinetic.Rect({
+						x:700,
+						y:100,
+						width:600,
+						visible:false
+
+					})
+					var menu = new Kinetic.Text ({
+
+							x:700,
+							y:100,
+							width:600,
+							text: 'Menu',
+							fontSize: 20,
+							width: 600,
+							padding: 20,
+							fontFamily: 'Calibri',
+							fill: 'green',
+							align: 'center'
+
+
+					})
+				//var  
+
+						//x:700,
+						//y:100,
+						//width:600,
+						//visible:false
+				//})
+
 
 				layer2.add(backBox);
 				layer2.add(pregunta);
 				layer2.add(r1);
 				layer2.add(r2);
 				layer2.add(r3);
+				//layer3.add(cargar);
 
 				stage.add(layer2);
 				stage.add(layer);
@@ -229,6 +262,13 @@
 					repetir = true;
 
 				});
+
+				menu.on('click', function(){
+					console.log("menuOn!!");
+					menubox= true ;
+					
+				});	
+
 
 				r1.on('click', function() {
 					alert('Hizo click en la primera!');
