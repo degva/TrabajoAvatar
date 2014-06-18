@@ -27,19 +27,19 @@
     "audio" : "url-preg",
     "pregu" : "¿Qué crees que pasó?",
     "r1" : {
-      "Los hermanos cuy fueron robados por una anaconda",
-      "c",
-      "event2.json"
+      "T":      "Los hermanos cuy fueron robados por una anaconda",
+      "tipo" :  "c",
+      "go":     "event2.json"
     },
     "r2" : {
-      "Los hermanos cuy fueron robados por un blanco oso polar",
-      "i",
-      "url-img"
+      "T":      "Los hermanos cuy fueron robados por un blanco oso polar",
+      "tipo":   "i",
+      "go":     "url-img"
     },
     "r3" : {
-      "los hermanos cuy fueron robados por un saltarín canguro",
-      "i",
-      "url-img"
+      "T":      "los hermanos cuy fueron robados por un saltarín canguro",
+      "tipo":   "i",
+      "go":     "url-img"
     }
   }
 }
