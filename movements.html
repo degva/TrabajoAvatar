@@ -59,7 +59,7 @@
 				var velA = 0;
 				var velB = 0;
 				var texto = "";
-                var rderepeat= new Kinetic.Text({
+				var rderepeat= new Kinetic.Text({
 					x: 600,
 					y: 500,
 					text: 'R',
@@ -70,7 +70,7 @@
 					fill: 'green',
 					align: 'center'
 
-                });
+				});
 				var textoSimple = new Kinetic.Text({
 					x: 200,
 					y: 500,
@@ -185,9 +185,11 @@
 
 				anim2.start();
 
-				function modVals() { 					// Modificaremos y jalaremos el siguiente evento cada 10s
+				var data;
+
+				function modVals() {					// Modificaremos y jalaremos el siguiente evento cada 10s
 					if (!repetir) {
-						var data = sgteEv();
+						data = sgteEv();
 					}
 					if (data[0]	== 'e') {
 						texto = data[1];
@@ -215,9 +217,9 @@
 					}
 					
 					setTimeout ( function() {
-						modVals(); 								// Llamamos a la misma funcion
+						modVals();								// Llamamos a la misma funcion
 					}, 4000);
-
+					repetir = false;						// Luego de repetirlo, regresar repetir a false
 				}
 				
 				modVals();
