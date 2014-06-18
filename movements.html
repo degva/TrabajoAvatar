@@ -148,6 +148,38 @@
 
 				});
 
+					var menuback = new Kinetic.Rect({
+						x:500,
+						y:100,
+					 	stroke: '#555',
+        				strokeWidth: 5,
+        				fill: '#ddd',
+        				width: 380,
+        				height: 100,
+        				shadowColor: 'black',
+        				shadowBlur: 10,
+        				shadowOffset: {x:10,y:10},
+        				shadowOpacity: 0.2,
+       					 cornerRadius: 10
+					});
+					var menu = new Kinetic.Text ({
+
+							x:500,
+							y:100,
+							width:600,
+							text: 'Menu',
+							fontSize: 20,
+							width: 600,
+							padding: 20,
+							fontFamily: 'Calibri',
+							fill: 'green',
+							align: 'center'
+
+
+					});
+				
+				layer2.add(menuback);
+				layer2.add(menu);
 				
 				layer2.add(backBox);
 				layer2.add(pregunta);
