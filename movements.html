@@ -16,7 +16,7 @@
 		<div id="container"></div>
 		<!--<script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>-->
 		<script src="http://www.html5canvastutorials.com/lib/KineticJS/kinetic-v5.0.1-beta.js"></script>
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/obtEv.js"></script>
 		<script defer="defer">
 
@@ -60,17 +60,17 @@
 				var velB = 0;
 				var texto = "";
                 var rderepeat= new Kinetic.Text({
-                    x: 850,
-                    y: 550
-                    text: "R"
-                    fontSize: 35,
-					width: 20,
+					x: 600,
+					y: 500,
+					text: 'R',
+					fontSize: 20,
+					width: 600,
 					padding: 20,
 					fontFamily: 'Calibri',
 					fill: 'green',
 					align: 'center'
 
-                })
+                });
 				var textoSimple = new Kinetic.Text({
 					x: 200,
 					y: 500,
@@ -110,7 +110,7 @@
 					align: 'center',
 					visible: false
 				});
-
+				var repetir = false;
 				var r2 = new Kinetic.Text({
 					x: 200,
 					y: 280,
@@ -223,7 +223,8 @@
 				modVals();
 
 				rderepeat.on('click', function(){
-					repetir = true
+					console.log("REPETIRRR!!L KJALSKJDF");
+					repetir = true;
 
 				});
 
