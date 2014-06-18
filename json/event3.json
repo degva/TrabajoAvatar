@@ -1,4 +1,4 @@
-  "6" : { 
+  {"6" : { 
         "audio" : "url6",
         "texto" : "El pelicano los acompaña mientras les cuenta que tiene un amigo cóndor macho, que posee cresta, ojos marrones y grandes alas, a diferencia de la hembra y que si necesitan ayuda pueden llamar al cóndor macho, pues los demás animales reaccionaran distinto.",
         "moves" : {
@@ -28,8 +28,21 @@
   "f" : { 
     "audio" : "url-preg",
     "pregu" : "¿Qué animal nos dijo el pelicano que podría ayudarnos con el frio?",
-    "r1" : "Cóndor sin cresta ",
-    "r2" : "Cóndor con cresta",
-    "r3" : "Halcón"
+    "r1" : {
+     "T":  "Cóndor sin cresta ",
+     "tipo": "i"
+      "go": "url-img"
+      },
+
+    "r2" :{
+    "T": "Cóndor con cresta",
+    "tipo": "c"
+    "go": "event4.json"
+    },
+    "r3" :{
+    "T": "Halcón",
+     "tipo": "i"
+     "go": "url-img"
+     },
   }
 }

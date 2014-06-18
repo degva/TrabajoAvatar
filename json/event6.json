@@ -1,5 +1,5 @@
 
-      "17" : { 
+   {   "17" : { 
       "audio" : "url17",
       "texto" : "Finalmente después de haber pasado tantos retos el papá cuy y su amigo el gallito de las rocas logran encontrar la cueva de la anaconda. ",
       "moves" : {
@@ -67,7 +67,7 @@
   },  
      
   "f" : { 
-    "audio" : "url-preg",''
+    "audio" : "url-preg",
     "pregu" : "¿Cómo me llamo? y ¿Qúe cosas no puedo hacer?",
     "r1" : "Se llama Frank y no puede correr por la tierra.",
     "r2" : "Se llama Andrés  y no puede nadar en las lagunas.",

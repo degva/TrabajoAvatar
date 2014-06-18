@@ -1,4 +1,4 @@
-
+{
      "9" : { 
         "audio" : "url9",
         "texto" : "Entonces el cuy al llegar a la puna con su amigo el gallito se encuentra con la vicuña, un animal hermoso por su pelaje que es suave como la seda",
@@ -29,8 +29,21 @@
   "f" : { 
     "audio" : "url-preg",
     "pregu" : "¿Que deberían decidir hacer el cuy con el gallito para evadir al puma?",
-    "r1" : "Correr al ver al puma para salvar sus vidas",
-    "r2" : "Subir a la copa más alta del árbol más alto y esperar",
-    "r3" : "Pasar la noche dentro de un tronco y esperar a que amanezca"
+    "r1" : {
+     "T": "Correr al ver al puma para salvar sus vidas",
+      "tipo": "i"
+       "go": "url-img"
+       },
+    "r2" : {
+    "T": "Subir a la copa más alta del árbol más alto y esperar",
+     "tipo": "i"
+     "go": "url-img"
+     },
+
+    "r3" : {
+     "T": "Pasar la noche dentro de un tronco y esperar a que amanezca"
+      "tipo": "c"
+      "go": "url-img"
+      }, 
   }
 }
