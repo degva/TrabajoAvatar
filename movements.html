@@ -16,7 +16,7 @@
 		<div id="container"></div>
 		<!--<script src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v5.0.2.min.js"></script>-->
 		<script src="http://www.html5canvastutorials.com/lib/KineticJS/kinetic-v5.0.1-beta.js"></script>
-		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script src="js/obtEv.js"></script>
 		<script defer="defer">
 
@@ -174,9 +174,9 @@
 				anim2.start();
 
 				function modVals() { 					// Modificaremos y jalaremos el siguiente evento cada 10s
-					if (!repetir) {
+					//if (!repetir) {
 						var data = sgteEv();
-					}
+					//}
 					if (data[0]	== 'e') {
 						texto = data[1];
 						// Para tipoA
