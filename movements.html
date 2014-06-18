@@ -152,6 +152,7 @@
 						x:700,
 						y:100,
 						width:600,
+						fill: 'red',
 						visible:false
 
 					})
@@ -178,13 +179,14 @@
 						//visible:false
 				//})
 
-
+				layer2.add(menubox);
+				layer2.add(menu);
 				layer2.add(backBox);
 				layer2.add(pregunta);
 				layer2.add(r1);
 				layer2.add(r2);
 				layer2.add(r3);
-				//layer3.add(cargar);
+				
 
 				stage.add(layer2);
 				stage.add(layer);
@@ -210,6 +212,7 @@
 						r1.show();
 						r2.show();
 						r3.show();
+						menubox.show();
 						backBox.show();
 						textoSimple.hide();
 					}
