@@ -163,7 +163,7 @@
         				shadowOpacity: 0.2,
        					 cornerRadius: 10
 					});
-					var openmenu = false; 
+					 
 					var menu = new Kinetic.Text ({
 
 							x:560,
@@ -270,7 +270,10 @@
 						r1.show();
 						r2.show();
 						r3.show();
-						
+						ventmenu.show();
+						cargar.show();
+						sonidooff.show();
+						salir.show();
 						backBox.show();
 						textoSimple.hide();
 					}
@@ -326,6 +329,7 @@
 
 				menu.on('click',function(){
 					console.log("menuOn!!");
+					ventmenu = true;
 					cargar = true;
 					sonidooff = true;
 					salir = true;
