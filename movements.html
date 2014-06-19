@@ -214,7 +214,7 @@
 							align: 'center',
 							visible:false
 					})
-						var menux = false;
+						
 						var salir = new Kinetic.Text ({
 							x:200,
 							y:400,
@@ -268,10 +268,7 @@
 						r1.show();
 						r2.show();
 						r3.show();
-						//ventmenu.show();
-						//cargar.show();
-						//sonidooff.show();
-						//salir.show();
+						
 						backBox.show();
 						textoSimple.hide();
 					}
@@ -326,21 +323,25 @@
 				});
 
 			
-				menuback.on('click',function(){
-					console.log("menuOn!!");
-					menux=true;
-					ventmenu =true;
-					cargar =true;
-					sonidooff =true;
-					salir =true;
-				})
-				if (menux){
+				
+				var menux = false;
+				function mostrarmenu(){
+					if (menux){
 
 					ventmenu.show();
 					cargar.show();
 					sonidooff.show();
 					salir.show();
+					
+					}
 				}
+				
+				mostrarmenu();
+
+				menuback.on('click',function(){
+					console.log("menuOn!!");
+					menux=true;	
+				})
 								
 				r1.on('click', function() {
 					alert('Hizo click en la primera!');
