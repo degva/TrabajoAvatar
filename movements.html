@@ -324,13 +324,17 @@
 
 				});
 
-				menuback.on('click',function(){
-					console.log("menuOn!!");
-					ventmenu = true;
-					cargar = true;
-					sonidooff = true;
-					salir = true;
-				})
+				$("menuback").click(function(){
+    				$("ventmenu").show();
+  					});
+
+				//menuback.on('click',function(){
+					//console.log("menuOn!!");
+					//ventmenu = true;
+					//cargar = true;
+					//sonidooff = true;
+					//salir = true;
+				//})
 								
 				r1.on('click', function() {
 					alert('Hizo click en la primera!');
