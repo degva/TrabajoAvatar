@@ -32,6 +32,7 @@
 
 				var layer = new Kinetic.Layer();
 				var layer2 = new Kinetic.Layer();
+				var layer3 = new Kinetic.Layer();
 
 				var tipoA = new Kinetic.RegularPolygon({
 					x: -100,
@@ -166,8 +167,7 @@
 					var menu = new Kinetic.Text ({
 
 							x:560,
-							y:100,
-							width:600,
+							y:100,						
 							text: 'Menu',
 							fontSize: 20,
 							width: 600,
@@ -178,6 +178,59 @@
 
 
 					});
+
+					var ventmenu = new Kinetic.Rect ({
+						x: 200,
+						y: 100,
+						fill: '#000',
+						height: 400,
+						width: 600,
+						cornerRadius: 10,
+						visible: true,
+						visible: false
+
+					})
+					var cargar = new Kinetic.Text ({
+							x:200,
+							y:200,
+							width:600,
+							text: 'Cargar',
+							fontSize: 50,							
+							padding: 20,
+							fontFamily: 'Calibri',
+							fill: '#fff',
+							align: 'center',
+							visible: false
+					})
+					
+						var sonidooff = new Kinetic.Text ({
+							x:200,
+							y:300,
+							width:600,
+							text: 'Sonido Off',
+							fontSize: 50,							
+							padding: 20,
+							fontFamily: 'Calibri',
+							fill: '#fff',
+							align: 'center',
+							visible:false
+					})
+			
+						var salir = new Kinetic.Text ({
+							x:200,
+							y:400,
+							width:600,
+							text: 'Salir',
+							fontSize: 50,							
+							padding: 20,
+							fontFamily: 'Calibri',
+							fill: '#fff',
+							align: 'center',
+							visible: false
+
+					})
+					
+
 				
 				layer2.add(menuback);
 				layer2.add(menu);
@@ -187,10 +240,14 @@
 				layer2.add(r1);
 				layer2.add(r2);
 				layer2.add(r3);
-				
+				layer3.add(ventmenu);
+				layer3.add(cargar);
+				layer3.add(sonidooff);
+				layer3.add(salir);
 
 				stage.add(layer2);
 				stage.add(layer);
+				stage.add(layer3);
 
 				var anim = new Kinetic.Animation(function(frame) {
 					// hexagon.setX(amplitude * Math.sin(frame.time * 2 * Math.PI / period) + centerX);
@@ -269,7 +326,9 @@
 
 				menu.on('click',function(){
 					console.log("menuOn!!");
-					alert('se abrió el menu');
+					cargar = true;
+					sonidooff = true;
+					salir = true;
 				})
 								
 				r1.on('click', function() {
