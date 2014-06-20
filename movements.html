@@ -324,10 +324,9 @@
 
 			
 				
-				//var menux = false;
+				var menux = false;
 				function mostrarmenu(){
-					if (menu.on('click',function()
-						console.log("menuOn!!")){
+					if (menux){
 
 					ventmenu = true;
 					cargar = true;
@@ -341,12 +340,11 @@
 					}
 				}
 				
-				//mostrarmenu();
+				mostrarmenu();
 
-				//menu.on('click',function(){
-					//console.log("menuOn!!");					
-					//menux=true;	
-				//});
+				menu.on('click',function(){										
+					menux=true;	
+				});
 								
 				r1.on('click', function() {
 					alert('Hizo click en la primera!');
