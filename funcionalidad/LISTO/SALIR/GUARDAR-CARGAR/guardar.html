@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Guardar Automaticamente</title>
+</head>
+<body>
+	<script type="text/javascript" src="GUARDAR/jquery.1.9.1.min.js"></script>
+	<script type="text/javascript" src="GUARDAR/zeion.cookies.js"></script>
+	
+	<script type="text/javascript">
+		var manager;
+		$(function()
+		{
+			manager = new zs_CookieManager();
+			manager.showCookies('#cookies');
+		});
+
+		function agregar()
+		{
+			var nombre = $('#txtNombre').val();
+
+			if ($.trim(nombre) == "")
+			{
+				alert("Necesitas especificar el nombre para la cookie");
+				$('#txtNombre').focus();
+				return;
+			}
+		}
+
+
+		$("#txtNombre").val("").focus();
+
+	</script>
+
+	<div>
+		<tr>
+			<td>Nombre:</td>
+			<td><input id="txtNombre" type="text" size="50" required> </input></td>
+
+		</tr> 
+
+		<tr>
+			<td></td>
+			<td>
+				<input type="button" value="Agregar" onclick="agregar();">
+			</td>
+		</tr>	
+
+	</div>
+
+</body>
+</html>
