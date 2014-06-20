@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Salir Button</title>
+
+</head>
+<body>
+	<button onclick="myFunction()">Salir</button>
+
+	<p id="demo"></p>
+
+	<script>
+	function myFunction() {
+    	var x;
+    	if (confirm("¿Estás seguro que deseas salir?") == true) {
+        	x = "Tu partida ha sido guardada";
+   		} else {
+        	x = "Continua con la aventura";
+    	}
+    	document.getElementById("demo").innerHTML = x;
+	}
+	</script>
+
+
+
+</body>
+</html>
