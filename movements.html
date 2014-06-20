@@ -324,9 +324,10 @@
 
 			
 				
-				var menux = false;
-				function mostrarmenu(menux,ventmenu,cargar,sonidoof,salir){
-					if (menux){
+				//var menux = false;
+				function mostrarmenu(){
+					if (menu.on('click',function()
+						console.log("menuOn!!")){
 
 					ventmenu = true;
 					cargar = true;
@@ -340,12 +341,12 @@
 					}
 				}
 				
-				mostrarmenu();
+				//mostrarmenu();
 
-				menu.on('click',function(){
-					console.log("menuOn!!");					
-					menux=true;	
-				});
+				//menu.on('click',function(){
+					//console.log("menuOn!!");					
+					//menux=true;	
+				//});
 								
 				r1.on('click', function() {
 					alert('Hizo click en la primera!');
