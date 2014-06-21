@@ -326,7 +326,7 @@
 				
 				var menux = false;
 				function mostrarmenu(){
-					if (menux=true){
+					
 
 					//document.getElementById(ventmenu).style.visible=true;
 					ventmenu.visible = true;
@@ -338,13 +338,14 @@
 					//cargar.show();
 					//sonidooff.show();
 					//salir.show();					
-					}
+					
 				}
 				
-				mostrarmenu();
+				
 
-				menu.on('click',function(){										
-					menux=true;	
+				menu.on('click',function(){	
+
+					mostrarmenu();
 				});
 								
 				r1.on('click', function() {
