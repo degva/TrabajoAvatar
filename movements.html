@@ -236,6 +236,7 @@
 				layer2.add(r1);
 				layer2.add(r2);
 				layer2.add(r3);
+
 				layer3.add(ventmenu);
 				layer3.add(cargar);
 				layer3.add(sonidooff);
@@ -276,6 +277,23 @@
 				}, layer2);
 
 				anim2.start();
+
+				// Esto es solo para el menu
+				var anim3 = new Kinetic.Animation(function(frame) {
+					if (menux) {
+						ventmenu.show();
+						cargar.show();
+						sonidooff.show();
+						salir.show();	
+					} else {
+						ventmenu.hide();
+						cargar.hide();
+						sonidooff.hide();
+						salir.hide();	
+					}
+				}, layer3);
+				anim3.start()
+				// Fin de la situacion para el menu
 
 				var data;
 
@@ -322,39 +340,17 @@
 
 				});
 
-			
-				
 				var menux = false;
-				//function mostrarmenu(){
-					
-
-					//document.getElementById(ventmenu).style.visible=true;
-					//ventmenu.visible = true;
-					//cargar.visible = true;
-					//sonidooff.visible = true;
-					//salir.visible = true;
-					
-					//ventmenu.show();
-					//cargar.show();
-					//sonidooff.show();
-					//salir.show();					
-					
-				//}
-				
-				
 
 				menu.on('click',function(){	
 					
-					alert('Hizo click #$%"$');
-					ventmenu.visible = true;
-					cargar.visible = true;
-					sonidooff.visible = true;
-					salir.visible = true;
-					ventmenu.show();
-					cargar.show();
-					sonidooff.show();
-					salir.show();	
+					console.log('Hizo click #$%"$');
+					menux = true;
+				});
 
+				ventmenu.on('mouseout', function() {
+					console.log('Salio del menu');
+					menux = false;
 				});
 								
 				r1.on('click', function() {
