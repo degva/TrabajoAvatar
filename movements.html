@@ -34,6 +34,7 @@
 				var layer2 = new Kinetic.Layer();
 				var layer3 = new Kinetic.Layer();
 
+				/*
 				var tipoA = new Kinetic.RegularPolygon({
 					x: -100,
 					y: stage.height()/2,
@@ -59,6 +60,7 @@
 
 				var velA = 0;
 				var velB = 0;
+				*/
 				var texto = "";
 				var rderepeat= new Kinetic.Text({
 					x: 600,
@@ -250,8 +252,8 @@
 
 				var anim = new Kinetic.Animation(function(frame) {
 					// hexagon.setX(amplitude * Math.sin(frame.time * 2 * Math.PI / period) + centerX);
-					tipoA.setX(tipoA.x() + velA);
-					tipoB.setX(tipoB.x() + velB);
+					// tipoA.setX(tipoA.x() + velA);
+					// tipoB.setX(tipoB.x() + velB);
 					textoSimple.setText(texto);
 				}, layer);
 
@@ -311,6 +313,7 @@
 					if (data[0]	== 'e') {
 						texto = data[1];
 						// Para tipoA
+						/*
 						if (data[2]	== 'escuchar' || data[2] == 'obs' || data[2] == 'hablar' ) {
 							velA = 0;
 						} else if (data[2] == 'ir-derecha') {
@@ -318,7 +321,9 @@
 						} else if (data[2] == 'ir-izquierda') {
 							velA = -1;
 						}
+						*/
 						// Para tipoB
+						/*
 						if (data[3]	== 'escuchar' || data[3] == 'obs' || data[3] == 'hablar' ) {
 							velB = 0;
 						} else if (data[3] == 'ir-derecha') {
@@ -326,6 +331,7 @@
 						} else if (data[3] == 'ir-izquierda') {
 							velB = -1;
 						}
+						*/
 					} else if (data[0] == 'f') {
 						showthem = true;
 						pregInf = [data[1], data[2], data[3], data[4]];
