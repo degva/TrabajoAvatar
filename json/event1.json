@@ -2,26 +2,20 @@
   "1" : {
     "audio" : "audio/e1-1.ogg",
     "texto" : "Una mañana cualquiera los padres Pedro y Giannina se levantaron como cualquier mañana normal y se dirigieron a saludar a sus hijos. ",
-    "moves" : "url-1"
+    "img" : "url-1"
   },  
   "2" : { 
-    "audio" : "url2",
+    "audio" : "audio/e1-2.ogg",
     "texto" : "Al entrar en el cuarto no encontraron a sus hijos preocupados salieron a preguntar por ellos y sus amigos les dijeron que habían salido fuera de la granja a jugar",
-    "moves" : {
-      "A" : "escuchar",
-      "B" : "escuchar"
-    }
+    "img" : "url-2"
   },  
   "3" : { 
-    "audio" : "url3",
+    "audio" : "audio/e1-3.ogg",
     "texto" : "inmediatamente Pedro y Giannina fueron a la puerta de la granja y solo encontraron en el piso el sombrero de Charo. Afuera de la granja encontraron una piel de serpiente gigante.",
-    "moves" : {
-      "A" : "obs",
-      "B" : "obs"
-    }
+    "img" : "url"
   },  
   "f" : { 
-    "audio" : "url-preg",
+    "audio" : "audio/e1-P.ogg",
     "pregu" : "¿Qué crees que pasó?",
     "r1" : {
       "T":      "Los hermanos cuy fueron robados por una anaconda",

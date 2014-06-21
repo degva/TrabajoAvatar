@@ -54,12 +54,12 @@
 			if (eact != -1) {
 				if (eact <= eventos[eventos.length - 2 ]) { // Si estamos antes del 'f'
 					// Devolver texto y movimientos
-					var array = ['e', masterJson[eact]['texto'], masterJson[eact]['moves']['A'], masterJson[eact]['moves']['B']];
+					var array = ['e', masterJson[eact]['texto'], masterJson[eact]['audio'], masterJson[eact]['img']];
 					eact += 1;
 					return array;
 				} else {
 					// Devolver preguntas y respuestas
-					var array = ['f', masterJson['f']['pregu'], masterJson['f']['r1'], masterJson['f']['r2'], masterJson['f']['r3']];
+					var array = ['f', masterJson['f']['pregu'], masterJson['f']['r1'], masterJson['f']['r2'], masterJson['f']['r3'], masterJson['f']['audio']];
 					eact = -1;
 					return array;
 				}

@@ -1,37 +1,34 @@
 {
   "1" : {
-    "audio" : "url4",
+    "audio" : "audio/e2-1.ogg",
     "texto" : "El papá cuy acompañado del gallito de las rocas se encontraron con un obstáculo; un pequeño lago con algunos cocodrilos.A la entrada estaba un pelícano.",
-    "moves" : {
-      "A" : "ir-derecha",
-      "B" : "ir-derecha"
-    }
+    "img" : "url-1"
   },  
   
   "2" : { 
-    "audio" : "url5",
+    "audio" : "audio/e2-2.ogg",
     "texto" : "El pelicano le advierte que uno de los cocodrilos ha perdido su huevo y como conoce a los cocodrilos entonces le recomienda al papá cuy que los haga dormir",
-    "moves" : {
-      "A" : "escuchar",
-      "B" : "hablar"
-    }
+    "img" : "url-1"
  	},  
   "f" : { 
-		"audio" : "url-preg",
+		"audio" : "audio/e2-P.ogg",
 		"pregu" : "¿A qué niño podría imitar el padre cuy para hacer dormir a los cocodrilos?",
 		"r1" : {
 			"T":  "Lula",
 			"tipo": "c",
+			"audio" : "audio/e2-r1.ogg",
 			"go": "event3.json"
     },
     "r2" : {
 			"T":  "Charo",
 			"tipo": "c",
+			"audio" : "audio/e2-r2.ogg",
 			"go": "event3.json"
     },
     "r3" : {
 			"T":  "Renzo",
 			"tipo": "i",
+			"audio" : "audio/e2-r3.ogg",
 			"go": "url-img"
     }
   }
