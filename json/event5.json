@@ -62,6 +62,6 @@
      "T": "Se llama Wayra y no puede trepar árboles.",
       "tipo": "c",
       "go": "event6.json"
-   },
+   }
   }
 }

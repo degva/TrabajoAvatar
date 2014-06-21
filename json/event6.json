@@ -1,5 +1,5 @@
 
-   {   "17" : { 
+   {   "1" : { 
       "audio" : "url17",
       "texto" : "Finalmente después de haber pasado tantos retos el papá cuy y su amigo el gallito de las rocas logran encontrar la cueva de la anaconda. ",
       "moves" : {
@@ -9,7 +9,7 @@
   },  
 
 
-       "18" : { 
+       "2" : { 
       "audio" : "url18",
       "texto" : "Al entrar a la cueva ve a la anaconda y se dirige a ella.",
       "moves" : {
@@ -18,7 +18,7 @@
     }
   },  
 
-    "19" : { 
+    "3" : { 
       "audio" : "url19",
       "texto" : "El papá cuy le dice: por favor señora anaconda devuélvame a mis hijos ",
       "moves" : {
@@ -28,7 +28,7 @@
   },  
 
 
-       "20" : { 
+       "4" : { 
       "audio" : "url20",
       "texto" : "la anaconda responde: le devolveré a sus hijos, pero ayúdenme a encontrar mis 4 huevos que están por algún lugar de esta cueva.",
       "moves" : {
@@ -38,7 +38,7 @@
   }, 
 
 
-      "21" : { 
+      "5" : { 
       "audio" : "url21",
       "texto" : "La anaconda feliz dice: Discúlpeme señor cuy por llevarme a sus hijos pero necesitaba ayuda para encontrar mis huevos",
       "moves" : {
@@ -48,7 +48,7 @@
   },  
 
 
-       "22" : { 
+       "6" : { 
       "audio" : "url22",
       "texto" : "El papá cuy responde: Uf vaya el susto que nos dio señora, pero no se preocupe y gracias por no hacerle daño a los niños.",
       "moves" : {
@@ -57,7 +57,7 @@
     }
   },   
 
-       "16" : { 
+       "7": { 
       "audio" : "url16",
       "texto" : "El capibara les dice: que hacen por acá, ustedes no pasarán a mi territorio a menos que me respondan la siguiente pregunta.",
       "moves" : {

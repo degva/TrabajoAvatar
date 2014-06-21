@@ -9,11 +9,13 @@
 	var eventos;
 	var masterJson;
 
-	function obtEventos() {
+	function obtEventos(nxtEv) {
 		/* Esta function descargara el archivo json con
 		 * toda la informacion dentro
 		 */
-		$.get('json/event1.json', function(data) { 						// Por ahora solo es para el primer cuadro
+		eact = 1;																						// esto es para regresar todo a la normalidad
+
+		$.get('json/' + nxtEv, function(data) { 						// Por ahora solo es para el primer cuadro
 
 			if ( !data || data === "") {
 				// Error
