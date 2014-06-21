@@ -13,7 +13,6 @@
 		/* Esta function descargara el archivo json con
 		 * toda la informacion dentro
 		 */
-		eact = 1;																						// esto es para regresar todo a la normalidad
 
 		$.get('json/' + nxtEv, function(data) { 						// Por ahora solo es para el primer cuadro
 
@@ -40,6 +39,8 @@
 
 			eventos = minEventos;
 			masterJson = json;
+			
+			eact = 1;																						// esto es para regresar todo a la normalidad
 
 		}, 'text');
 	}
