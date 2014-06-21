@@ -325,14 +325,14 @@
 			
 				
 				var menux = false;
-				function mostrarmenu(){
+				//function mostrarmenu(){
 					
 
 					//document.getElementById(ventmenu).style.visible=true;
-					ventmenu.visible = true;
-					cargar.visible = true;
-					sonidooff.visible = true;
-					salir.visible = true;
+					//ventmenu.visible = true;
+					//cargar.visible = true;
+					//sonidooff.visible = true;
+					//salir.visible = true;
 					
 					//ventmenu.show();
 					//cargar.show();
@@ -344,8 +344,11 @@
 				
 
 				menu.on('click',function(){	
-
-					mostrarmenu();
+					
+					ventmenu.visible = true;
+					cargar.visible = true;
+					sonidooff.visible = true;
+					salir.visible = true;
 				});
 								
 				r1.on('click', function() {
