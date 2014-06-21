@@ -22,7 +22,7 @@
 
 			$(document).ready(function() {
 
-				obtEventos();
+				obtEventos('event1.json');
 
 				var stage = new Kinetic.Stage({
 					container: 'container',
@@ -272,6 +272,13 @@
 						
 						backBox.show();
 						textoSimple.hide();
+					} else {
+						pregunta.hide();
+						r1.hide();
+						r2.hide();
+						r3.hide();
+						backBox.hide();
+						textoSimple.show();
 					}
 					// Todo con respecto a el texto con preguntas
 				}, layer2);
@@ -322,7 +329,9 @@
 					} else if (data[0] == 'f') {
 						showthem = true;
 						pregInf = [data[1], data[2], data[3], data[4]];
+						return;
 					} else {
+
 						console.log("NEXT!");
 					}
 					
@@ -354,14 +363,38 @@
 				});
 								
 				r1.on('click', function() {
-					alert('Hizo click en la primera!');
-				});;
+					// alert('Hizo click en la primera!');
+					console.log('moviendose para la respuesta!');
+					if (pregInf[1]['tipo'] == 'c') {
+						obtEventos(pregInf[1]['go']);						
+						showthem = false;
+						modVals();
+					} else {
+						console.log('mostrar imagen');
+					}
+				});
 				r2.on('click', function() {
-					alert('Hizo click en la Segunda!');
-				});;
+					// alert('Hizo click en la Segunda!');
+					console.log('moviendose para la respuesta!');
+					if (pregInf[2]['tipo'] == 'c') {
+						obtEventos(pregInf[2]['go']);						
+						showthem = false;
+						modVals();
+					} else {
+						console.log('mostrar imagen');
+					}
+				});
 				r3.on('click', function() {
-					alert('Hizo click en la Tercera!');
-				});;
+					// alert('Hizo click en la Tercera!');
+					console.log('moviendose para la respuesta!');
+					if (pregInf[3]['tipo'] == 'c') {
+						obtEventos(pregInf[3]['go']);						
+						showthem = false;
+						modVals();
+					} else {
+						console.log('mostrar imagen');
+					}
+				});
 			});
 		</script>
 	</body>

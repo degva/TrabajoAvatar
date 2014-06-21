@@ -1,5 +1,5 @@
 {
-     "9" : { 
+     "1" : { 
         "audio" : "url9",
         "texto" : "Entonces el cuy al llegar a la puna con su amigo el gallito se encuentra con la vicuña, un animal hermoso por su pelaje que es suave como la seda",
         "moves" : {
@@ -9,7 +9,7 @@
   },
 
 
-    "10" : {
+    "2" : {
     "audio" : "url10",
     "texto" : "la vicuña les advierte sobre el puma y les cuenta sobre su agilidad, su facilidad para trepar árboles y sus costumbres nocturnas.",
     "moves" : {
@@ -17,7 +17,7 @@
       "B" : "hablar"
     }
   },  
-    "11" : { 
+    "3" : { 
       "audio" : "url11",
       "texto" : "Después de haber caminado por varias horas se sientan a descansar, pero  escuchan unos ruidos extraños y se fijan que había un puma rondando la zona. ",
       "moves" : {
@@ -31,19 +31,19 @@
     "pregu" : "¿Que deberían decidir hacer el cuy con el gallito para evadir al puma?",
     "r1" : {
      "T": "Correr al ver al puma para salvar sus vidas",
-      "tipo": "i"
+      "tipo": "i",
        "go": "url-img"
        },
     "r2" : {
     "T": "Subir a la copa más alta del árbol más alto y esperar",
-     "tipo": "i"
+     "tipo": "i",
      "go": "url-img"
      },
 
     "r3" : {
-     "T": "Pasar la noche dentro de un tronco y esperar a que amanezca"
-      "tipo": "c"
-      "go": "url-img"
-      }, 
+     "T": "Pasar la noche dentro de un tronco y esperar a que amanezca",
+      "tipo": "c",
+      "go": "event5.json"
+      }
   }
 }
