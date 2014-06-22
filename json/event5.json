@@ -1,33 +1,33 @@
 {"1" : { 
         "audio" : "audio/e5-1.ogg",
         "texto" : "Al amanecer el papa cuy y el gallito de las rocas continuaron con su viaje. Cansados por la caminata decidieron buscar un poco de agua y fruta",
-    "img" : "url-1"
+    "img" : "images/evento5_1.jpg"
   },
 
 
     "2" : {
     "audio" : "audio/e5-2.ogg",
     "texto" : "En eso se encontraron con Sach’a un juguetón mono choro que es un animal muy ágil recolectando frutas.",
-    "img" : "url-1"
+    "img" : "images/evento5_2.jpg"
   },  
     "3" : { 
       "audio" : "audio/e5-3.ogg",
       "texto" : "Sach’a les advirtió que no siguieran su camino porque a la entrada de la selva baja se hablaba de Wayra un capibara muy ágil nadando y corriendo (semiacuático) que era muy malo con los demás lugareños y que podría hacerles daño. ",
-    "img" : "url-1"
+    "img" : "images/evento5_3.jpg"
   },  
 
 
       "4" : { 
       "audio" : "audio/e5-4.ogg",
       "texto" : "El padre cuy siguió su camino junto a su amigo gallito porque amaba mucho a sus hijos. Al llegar a la entrada se divisó al capibara.",
-    "img" : "url-1"
+    "img" : "images/evento5_4.jpg"
   },  
 
 
        "5" : { 
       "audio" : "audio/e5-5.ogg",
       "texto" : "El capibara les dice: que hacen por acá, ustedes no pasarán a mi territorio a menos que me respondan la siguiente pregunta.",
-    "img" : "url-1"
+    "img" : "images/evento5_5.jpg"
   },  
      
   "f" : { 

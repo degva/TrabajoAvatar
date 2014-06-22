@@ -10,6 +10,10 @@
 			.kineticjs-content {
 				background-color: #eee;
 			}
+
+			.kineticjs-content {
+				background-image: url('images/evento1_1.jpg');
+			}
 		</style>
 	</head>
 	<body>
@@ -312,26 +316,15 @@
 					}
 					if (data[0]	== 'e') {
 						texto = data[1];
-						// Para tipoA
-						/*
-						if (data[2]	== 'escuchar' || data[2] == 'obs' || data[2] == 'hablar' ) {
-							velA = 0;
-						} else if (data[2] == 'ir-derecha') {
-							velA = 1;
-						} else if (data[2] == 'ir-izquierda') {
-							velA = -1;
-						}
-						*/
-						// Para tipoB
-						/*
-						if (data[3]	== 'escuchar' || data[3] == 'obs' || data[3] == 'hablar' ) {
-							velB = 0;
-						} else if (data[3] == 'ir-derecha') {
-							velB = 1;
-						} else if (data[3] == 'ir-izquierda') {
-							velB = -1;
-						}
-						*/
+
+						// REPRODUCIR AUDIO
+
+
+
+						// CAMBIAR IMAGEN
+
+						$('.kineticjs-content').css('background-image', 'url(' + data[3] + ')');
+
 					} else if (data[0] == 'f') {
 						showthem = true;
 						pregInf = [data[1], data[2], data[3], data[4]];

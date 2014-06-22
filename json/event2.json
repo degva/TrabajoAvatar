@@ -2,13 +2,13 @@
   "1" : {
     "audio" : "audio/e2-1.ogg",
     "texto" : "El papá cuy acompañado del gallito de las rocas se encontraron con un obstáculo; un pequeño lago con algunos cocodrilos.A la entrada estaba un pelícano.",
-    "img" : "url-1"
+    "img" : "images/evento2_1.jpg"
   },  
   
   "2" : { 
     "audio" : "audio/e2-2.ogg",
     "texto" : "El pelicano le advierte que uno de los cocodrilos ha perdido su huevo y como conoce a los cocodrilos entonces le recomienda al papá cuy que los haga dormir",
-    "img" : "url-1"
+    "img" : "images/evento2_1.jpg"
  	},  
   "f" : { 
 		"audio" : "audio/e2-P.ogg",

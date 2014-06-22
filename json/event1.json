@@ -2,17 +2,17 @@
   "1" : {
     "audio" : "audio/e1-1.ogg",
     "texto" : "Una mañana cualquiera los padres Pedro y Giannina se levantaron como cualquier mañana normal y se dirigieron a saludar a sus hijos. ",
-    "img" : "url-1"
+    "img" : "images/evento1_1.jpg"
   },  
   "2" : { 
     "audio" : "audio/e1-2.ogg",
     "texto" : "Al entrar en el cuarto no encontraron a sus hijos preocupados salieron a preguntar por ellos y sus amigos les dijeron que habían salido fuera de la granja a jugar",
-    "img" : "url-2"
+    "img" : "images/evento1_2.jpg"
   },  
   "3" : { 
     "audio" : "audio/e1-3.ogg",
     "texto" : "inmediatamente Pedro y Giannina fueron a la puerta de la granja y solo encontraron en el piso el sombrero de Charo. Afuera de la granja encontraron una piel de serpiente gigante.",
-    "img" : "url"
+    "img" : "images/evento1_3.jpg"
   },  
   "f" : { 
     "audio" : "audio/e1-P.ogg",
