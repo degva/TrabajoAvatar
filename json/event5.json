@@ -7,32 +7,32 @@
 
     "2" : {
     "audio" : "audio/e5-2.ogg",
-    "texto" : "En eso se encontraron con Sach’a un juguetón mono choro que es un animal muy ágil recolectando frutas.",
+    "texto" : "En eso se encontraron con Sach’a un jugueton mono choro que es un animal muy agil recolectando frutas.",
     "img" : "images/evento5_2.jpg"
   },  
     "3" : { 
       "audio" : "audio/e5-3.ogg",
-      "texto" : "Sach’a les advirtió que no siguieran su camino porque a la entrada de la selva baja se hablaba de Wayra un capibara muy ágil nadando y corriendo (semiacuático) que era muy malo con los demás lugareños y que podría hacerles daño. ",
+      "texto" : "Sach’a les advirtio que no siguieran su camino porque a la entrada de la selva baja se hablaba de Wayra un capibara muy agil nadando y corriendo (semiacuatico) que era muy malo con los demas lugarenos y que podria hacerles dano. ",
     "img" : "images/evento5_3.jpg"
   },  
 
 
       "4" : { 
       "audio" : "audio/e5-4.ogg",
-      "texto" : "El padre cuy siguió su camino junto a su amigo gallito porque amaba mucho a sus hijos. Al llegar a la entrada se divisó al capibara.",
+      "texto" : "El padre cuy siguio su camino junto a su amigo gallito porque amaba mucho a sus hijos. Al llegar a la entrada se diviso al capibara.",
     "img" : "images/evento5_4.jpg"
   },  
 
 
        "5" : { 
       "audio" : "audio/e5-5.ogg",
-      "texto" : "El capibara les dice: que hacen por acá, ustedes no pasarán a mi territorio a menos que me respondan la siguiente pregunta.",
+      "texto" : "El capibara les dice: que hacen por aca, ustedes no pasaran a mi territorio a menos que me respondan la siguiente pregunta.",
     "img" : "images/evento5_5.jpg"
   },  
      
   "f" : { 
     "audio" : "audio/e5-P.ogg",
-    "pregu" : "¿Cómo me llamo? y ¿Qúe cosas no puedo hacer?",
+    "pregu" : "¿Como me llamo? y ¿Qúe cosas no puedo hacer?",
     "r1" : {
       "T":  "Se llama Frank y no puede correr por la tierra.",
       "tipo": "i",
@@ -40,13 +40,13 @@
        "go": "url-img"
        },
     "r2" : {
-      "T":  "Se llama Andrés  y no puede nadar en las lagunas.",
+      "T":  "Se llama Andres  y no puede nadar en las lagunas.",
        "tipo": "i",
 			"audio" : "audio/e5-r2.ogg",
         "go": "url-img"
         },
     "r3" :{
-     "T": "Se llama Wayra y no puede trepar árboles.",
+     "T": "Se llama Wayra y no puede trepar arboles.",
       "tipo": "c",
 			"audio" : "audio/e5-r3.ogg",
       "go": "event6.json"

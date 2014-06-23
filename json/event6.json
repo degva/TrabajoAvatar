@@ -1,7 +1,7 @@
 
    {   "1" : { 
       "audio" : "audio/e6-1.ogg",
-      "texto" : "Finalmente después de haber pasado tantos retos el papá cuy y su amigo el gallito de las rocas logran encontrar la cueva de la anaconda. ",
+      "texto" : "Finalmente despues de haber pasado tantos retos el papa cuy y su amigo el gallito de las rocas logran encontrar la cueva de la anaconda. ",
     "img" : "images/evento6_1.jpg"
   },  
 
@@ -14,28 +14,28 @@
 
     "3" : { 
       "audio" : "audio/e6-3.ogg",
-      "texto" : "El papá cuy le dice: por favor señora anaconda devuélvame a mis hijos ",
+      "texto" : "El papa cuy le dice: por favor senora anaconda devuelvame a mis hijos ",
     "img" : "images/evento6_3.jpg"
   },  
 
 
        "4" : { 
       "audio" : "audio/e6-4.ogg",
-      "texto" : "la anaconda responde: le devolveré a sus hijos, pero ayúdenme a encontrar mis 4 huevos que están por algún lugar de esta cueva.",
+      "texto" : "la anaconda responde: le devolvere a sus hijos, pero ayúdenme a encontrar mis 4 huevos que estan por algún lugar de esta cueva.",
     "img" : "images/evento6_4.jpg"
   }, 
 
 
       "5" : { 
       "audio" : "audio/e6-5.ogg",
-      "texto" : "La anaconda feliz dice: Discúlpeme señor cuy por llevarme a sus hijos pero necesitaba ayuda para encontrar mis huevos",
+      "texto" : "La anaconda feliz dice: Discúlpeme senor cuy por llevarme a sus hijos pero necesitaba ayuda para encontrar mis huevos",
     "img" : "images/evento6_5.jpg"
   },  
 
 
        "6" : { 
       "audio" : "audio/e6-6.ogg",
-      "texto" : "El papá cuy responde: Uf vaya el susto que nos dio señora, pero no se preocupe y gracias por no hacerle daño a los niños.",
+      "texto" : "El papa cuy responde: Uf vaya el susto que nos dio senora, pero no se preocupe y gracias por no hacerle dano a los ninos.",
     "img" : "images/evento6_6.jpg"
   },   
 
