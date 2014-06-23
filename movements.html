@@ -38,33 +38,6 @@
 				var layer2 = new Kinetic.Layer();
 				var layer3 = new Kinetic.Layer();
 
-				/*
-				var tipoA = new Kinetic.RegularPolygon({
-					x: -100,
-					y: stage.height()/2,
-					sides: 6,
-					radius: 70,
-					fill: 'red',
-					stroke: 'black',
-					strokeWidth: 4
-				});
-
-				var tipoB = new Kinetic.RegularPolygon({
-					x: -200,
-					y: stage.height()/2,
-					sides: 8,
-					radius: 70,
-					fill: 'blue',
-					stroke: 'black',
-					strokeWidth: 4
-				});
-
-				layer.add(tipoA);
-				layer.add(tipoB);
-
-				var velA = 0;
-				var velB = 0;
-				*/
 				var texto = "";
 				var rderepeat= new Kinetic.Text({
 					x: 600,
@@ -319,7 +292,10 @@
 
 						// REPRODUCIR AUDIO
 
-
+						var sound = new Audio(data[2]);
+						// var duration = sound.duration;
+						// console.log("###... " + duration);
+						sound.play();
 
 						// CAMBIAR IMAGEN
 
@@ -327,6 +303,8 @@
 
 					} else if (data[0] == 'f') {
 						showthem = true;
+						var sound = new Audio(data[5]);
+						sound.play();
 						pregInf = [data[1], data[2], data[3], data[4]];
 						return;
 					} else {
@@ -336,7 +314,7 @@
 					
 					setTimeout ( function() {
 						modVals();								// Llamamos a la misma funcion
-					}, 4000);
+					}, 10000);
 					repetir = false;						// Luego de repetirlo, regresar repetir a false
 				}
 				

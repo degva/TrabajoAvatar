@@ -59,7 +59,7 @@
 					return array;
 				} else {
 					// Devolver preguntas y respuestas
-					var array = ['f', masterJson['f']['pregu'], masterJson['f']['r1'], masterJson['f']['r2'], masterJson['f']['r3'], masterJson['f']['audio']];
+					var array = ['f', masterJson['f']['pregu'], masterJson['f']['r1'], masterJson['f']['r2'], masterJson['f']['r3'], masterJson['f']['audiot ']];
 					eact = -1;
 					return array;
 				}
