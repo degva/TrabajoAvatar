@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<meta charset="utf-8"> 
 		<style>
 			body {
 				margin: 0px;
@@ -9,6 +10,10 @@
 
 			.kineticjs-content {
 				background-color: #eee;
+			}
+
+			.kineticjs-content {
+				background-image: url('images/evento1_1.jpg');
 			}
 		</style>
 	</head>
@@ -34,31 +39,6 @@
 				var layer2 = new Kinetic.Layer();
 				var layer3 = new Kinetic.Layer();
 
-				var tipoA = new Kinetic.RegularPolygon({
-					x: -100,
-					y: stage.height()/2,
-					sides: 6,
-					radius: 70,
-					fill: 'red',
-					stroke: 'black',
-					strokeWidth: 4
-				});
-
-				var tipoB = new Kinetic.RegularPolygon({
-					x: -200,
-					y: stage.height()/2,
-					sides: 8,
-					radius: 70,
-					fill: 'blue',
-					stroke: 'black',
-					strokeWidth: 4
-				});
-
-				layer.add(tipoA);
-				layer.add(tipoB);
-
-				var velA = 0;
-				var velB = 0;
 				var texto = "";
 				var rderepeat= new Kinetic.Text({
 					x: 600,
@@ -67,20 +47,23 @@
 					fontSize: 20,
 					width: 600,
 					padding: 20,
-					fontFamily: 'Calibri',
+					fontFamily: 'Sans',
 					fill: 'green',
 					align: 'center'
 
 				});
 				var textoSimple = new Kinetic.Text({
 					x: 200,
-					y: 500,
+					y: 450,
 					text: texto,
 					fontSize: 20,
 					width: 600,
 					padding: 20,
-					fontFamily: 'Calibri',
-					fill: 'blue',
+					fontFamily: 'Sans',
+					fill: 'white',
+					shadowColor: 'black',
+					shadowBlur: 10,
+					shadowOffset: 1,
 					align: 'center'
 				});
 				layer.add(textoSimple);
@@ -92,7 +75,7 @@
 					width: 600,
 					text: "Nothing",
 					padding: 20,
-					fontFamily: 'Calibri',
+					fontFamily: 'Sans',
 					fontSize: 20,
 					fill: 'red',
 					align: 'center',
@@ -105,7 +88,7 @@
 					width: 600,
 					text: "r1",
 					padding: 20,
-					fontFamily: 'Calibri',
+					fontFamily: 'Sans',
 					fontSize: 18,
 					fill: 'blue',
 					align: 'center',
@@ -118,7 +101,7 @@
 					width: 600,
 					text: "r2",
 					padding: 20,
-					fontFamily: 'Calibri',
+					fontFamily: 'Sans',
 					fontSize: 18,
 					fill: 'blue',
 					align: 'center',
@@ -131,7 +114,7 @@
 					width: 600,
 					text: "r3",
 					padding: 20,
-					fontFamily: 'Calibri',
+					fontFamily: 'Sans',
 					fontSize: 18,
 					fill: 'blue',
 					align: 'center',
@@ -172,7 +155,7 @@
 							fontSize: 20,
 							width: 600,
 							padding: 20,
-							fontFamily: 'Calibri',
+							fontFamily: 'Sans',
 							fill: '#000',
 							align: 'center'
 
@@ -196,7 +179,7 @@
 							text: 'Cargar',
 							fontSize: 50,							
 							padding: 20,
-							fontFamily: 'Calibri',
+							fontFamily: 'Sans',
 							fill: '#fff',
 							align: 'center',
 							visible: false
@@ -209,7 +192,7 @@
 							text: 'Sonido Off',
 							fontSize: 50,							
 							padding: 20,
-							fontFamily: 'Calibri',
+							fontFamily: 'Sans',
 							fill: '#fff',
 							align: 'center',
 							visible:false
@@ -222,7 +205,7 @@
 							text: 'Salir',
 							fontSize: 50,							
 							padding: 20,
-							fontFamily: 'Calibri',
+							fontFamily: 'Sans',
 							fill: '#fff',
 							align: 'center',
 							visible: false
@@ -250,8 +233,8 @@
 
 				var anim = new Kinetic.Animation(function(frame) {
 					// hexagon.setX(amplitude * Math.sin(frame.time * 2 * Math.PI / period) + centerX);
-					tipoA.setX(tipoA.x() + velA);
-					tipoB.setX(tipoB.x() + velB);
+					// tipoA.setX(tipoA.x() + velA);
+					// tipoB.setX(tipoB.x() + velB);
 					textoSimple.setText(texto);
 				}, layer);
 
@@ -310,24 +293,22 @@
 					}
 					if (data[0]	== 'e') {
 						texto = data[1];
-						// Para tipoA
-						if (data[2]	== 'escuchar' || data[2] == 'obs' || data[2] == 'hablar' ) {
-							velA = 0;
-						} else if (data[2] == 'ir-derecha') {
-							velA = 1;
-						} else if (data[2] == 'ir-izquierda') {
-							velA = -1;
-						}
-						// Para tipoB
-						if (data[3]	== 'escuchar' || data[3] == 'obs' || data[3] == 'hablar' ) {
-							velB = 0;
-						} else if (data[3] == 'ir-derecha') {
-							velB = 1;
-						} else if (data[3] == 'ir-izquierda') {
-							velB = -1;
-						}
+
+						// REPRODUCIR AUDIO
+
+						var sound = new Audio(data[2]);
+						// var duration = sound.duration;
+						// console.log("###... " + duration);
+						sound.play();
+
+						// CAMBIAR IMAGEN
+
+						$('.kineticjs-content').css('background-image', 'url(' + data[3] + ')');
+
 					} else if (data[0] == 'f') {
 						showthem = true;
+						var sound = new Audio(data[5]);
+						sound.play();
 						pregInf = [data[1], data[2], data[3], data[4]];
 						return;
 					} else {
@@ -337,7 +318,7 @@
 					
 					setTimeout ( function() {
 						modVals();								// Llamamos a la misma funcion
-					}, 4000);
+					}, 15000);
 					repetir = false;						// Luego de repetirlo, regresar repetir a false
 				}
 				

@@ -1,76 +1,45 @@
 
    {   "1" : { 
-      "audio" : "url17",
+      "audio" : "audio/e6-1.ogg",
       "texto" : "Finalmente después de haber pasado tantos retos el papá cuy y su amigo el gallito de las rocas logran encontrar la cueva de la anaconda. ",
-      "moves" : {
-          "A" : "ir-derecha",
-           "B" : "ir-derecha"
-    }
+    "img" : "images/evento6_1.jpg"
   },  
 
 
        "2" : { 
-      "audio" : "url18",
+      "audio" : "audio/e6-2.ogg",
       "texto" : "Al entrar a la cueva ve a la anaconda y se dirige a ella.",
-      "moves" : {
-          "A" : "ir-derecha",
-           "B" : "obs"
-    }
+    "img" : "images/evento6_2.jpg"
   },  
 
     "3" : { 
-      "audio" : "url19",
+      "audio" : "audio/e6-3.ogg",
       "texto" : "El papá cuy le dice: por favor señora anaconda devuélvame a mis hijos ",
-      "moves" : {
-          "A" : "hablar",
-           "B" : "escuchar"
-    }
+    "img" : "images/evento6_3.jpg"
   },  
 
 
        "4" : { 
-      "audio" : "url20",
+      "audio" : "audio/e6-4.ogg",
       "texto" : "la anaconda responde: le devolveré a sus hijos, pero ayúdenme a encontrar mis 4 huevos que están por algún lugar de esta cueva.",
-      "moves" : {
-          "A" : "escuchar",
-           "B" : "hablar"
-    }
+    "img" : "images/evento6_4.jpg"
   }, 
 
 
       "5" : { 
-      "audio" : "url21",
+      "audio" : "audio/e6-5.ogg",
       "texto" : "La anaconda feliz dice: Discúlpeme señor cuy por llevarme a sus hijos pero necesitaba ayuda para encontrar mis huevos",
-      "moves" : {
-          "A" : "escuchar",
-           "B" : "hablar"
-    }
+    "img" : "images/evento6_5.jpg"
   },  
 
 
        "6" : { 
-      "audio" : "url22",
+      "audio" : "audio/e6-6.ogg",
       "texto" : "El papá cuy responde: Uf vaya el susto que nos dio señora, pero no se preocupe y gracias por no hacerle daño a los niños.",
-      "moves" : {
-          "A" : "hablar",
-           "B" : "escuchar"
-    }
+    "img" : "images/evento6_6.jpg"
   },   
 
-       "7": { 
-      "audio" : "url16",
-      "texto" : "El capibara les dice: que hacen por acá, ustedes no pasarán a mi territorio a menos que me respondan la siguiente pregunta.",
-      "moves" : {
-          "A" : "escuchar",
-           "B" : "hablar"
-    }
-  },  
-     
   "f" : { 
-    "audio" : "url-preg",
-    "pregu" : "¿Cómo me llamo? y ¿Qúe cosas no puedo hacer?",
-    "r1" : "Se llama Frank y no puede correr por la tierra.",
-    "r2" : "Se llama Andrés  y no puede nadar en las lagunas.",
-    "r3" : "Se llama Wayra y no puede trepar árboles."
+		"texto" : "EL FIN!"
   }
 }

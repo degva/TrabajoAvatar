@@ -1,48 +1,42 @@
 {
      "1" : { 
-        "audio" : "url9",
+        "audio" : "audio/e4-1.ogg",
         "texto" : "Entonces el cuy al llegar a la puna con su amigo el gallito se encuentra con la vicuña, un animal hermoso por su pelaje que es suave como la seda",
-        "moves" : {
-          "A" : "ir-derecha",
-          "B" : "obs"
-    }
+    "img" : "images/evento4_1.jpg"
   },
 
 
     "2" : {
-    "audio" : "url10",
+    "audio" : "audio/e4-2.ogg",
     "texto" : "la vicuña les advierte sobre el puma y les cuenta sobre su agilidad, su facilidad para trepar árboles y sus costumbres nocturnas.",
-    "moves" : {
-      "A" : "escuchar",
-      "B" : "hablar"
-    }
+    "img" : "images/evento4_2.jpg"
   },  
     "3" : { 
-      "audio" : "url11",
+      "audio" : "audio/e4-3.ogg",
       "texto" : "Después de haber caminado por varias horas se sientan a descansar, pero  escuchan unos ruidos extraños y se fijan que había un puma rondando la zona. ",
-      "moves" : {
-          "A" : "obs",
-           "B" : "obs"
-    }
+    "img" : "images/evento4_3.jpg"
   },  
      
   "f" : { 
-    "audio" : "url-preg",
+    "audio" : "audio/e4-P.ogg",
     "pregu" : "¿Que deberían decidir hacer el cuy con el gallito para evadir al puma?",
     "r1" : {
      "T": "Correr al ver al puma para salvar sus vidas",
       "tipo": "i",
+			"audio" : "audio/e4-r1.ogg",
        "go": "url-img"
        },
     "r2" : {
     "T": "Subir a la copa más alta del árbol más alto y esperar",
      "tipo": "i",
+			"audio" : "audio/e4-r2.ogg",
      "go": "url-img"
      },
 
     "r3" : {
      "T": "Pasar la noche dentro de un tronco y esperar a que amanezca",
       "tipo": "c",
+			"audio" : "audio/e4-r3.ogg",
       "go": "event5.json"
       }
   }
