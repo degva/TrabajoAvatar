@@ -3,7 +3,6 @@
         "audio" : "audio/e4-1.ogg",
         "texto" : "Entonces el cuy al llegar a la puna con su amigo el gallito se encuentra con la vicuña, un animal hermoso por su pelaje que es suave como la seda",
     "img" : "images/evento4_1.jpg"
-    "img" : "url-1"
   },
 
 
@@ -11,13 +10,11 @@
     "audio" : "audio/e4-2.ogg",
     "texto" : "la vicuña les advierte sobre el puma y les cuenta sobre su agilidad, su facilidad para trepar árboles y sus costumbres nocturnas.",
     "img" : "images/evento4_2.jpg"
-    "img" : "url-1"
   },  
     "3" : { 
       "audio" : "audio/e4-3.ogg",
       "texto" : "Después de haber caminado por varias horas se sientan a descansar, pero  escuchan unos ruidos extraños y se fijan que había un puma rondando la zona. ",
     "img" : "images/evento4_3.jpg"
-    "img" : "url-1"
   },  
      
   "f" : { 
